@@ -1,3 +1,4 @@
+
 SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
@@ -10,5 +11,5 @@ GO
 CREATE PROCEDURE [dbo].[testStoredProcedure]
 AS
     -- Insert statements for procedure here
-	SELECT * from dbo.SALESLINE
+	SELECT SALESID from dbo.SALESLINE
 GO
