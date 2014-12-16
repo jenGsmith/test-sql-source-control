@@ -11,5 +11,5 @@ GO
 CREATE PROCEDURE [dbo].[testStoredProcedure]
 AS
     -- Insert statements for procedure here
-	SELECT SALESID from dbo.SALESLINE
+	SELECT * from dbo.SALESLINE
 GO
